@@ -7,5 +7,5 @@ CREATE TABLE
             name VARCHAR ( 80 ) NOT NULL,
             last_name VARCHAR ( 50 ) NOT NULL,
             country VARCHAR ( 50 ) NOT NULL,
-            birth_Year VARCHAR ( 50 ) NOT NULL,
+            birth_year VARCHAR ( 4 ) NOT NULL,
 );

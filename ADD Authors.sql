@@ -81,7 +81,3 @@ INSERT INTO authors(
         'UK',
         '1985'
         );
-
-UPDATE public.authors
-	SET country='DE'
-	WHERE author_id=4 RETURNING *
