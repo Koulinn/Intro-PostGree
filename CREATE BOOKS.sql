@@ -10,5 +10,5 @@ CREATE TABLE
             cover VARCHAR ( 50 ) NOT NULL,
             created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
             updated_at DATE DEFAULT CURRENT_DATE(), 
-            published_at TIMESTAMPTZ NOT NULL DEFAULT NOW() 
+            published_at DATE DEFAULT 
 );
